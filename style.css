@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-color: #ecf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  .testimonial-container{
+    padding: 5% 3%;
+  }
+  .container-1{
+    background-color: #7541c8;
+    color: #ffffff;
+    position: relative;
+    z-index: 0;
+  }
+  .container-2{
+    background-color: #48556a;
+    color: #ffffff;
+  }
+  .container-3{
+    background-color: #ffffff;
+    color: #48556a;
+  }
+  .container-4{
+    background-color: #19212e;
+    color: #ffffff;
+  }
+  .container-5{
+    background-color: #ffffff;
+    color: #48556a;
+  }
+  .items{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    z-index: 3;
+    position: relative;
+  }
+  .header img{
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #7541c8;
+  }
+  .items h4{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .items p{
+    opacity: 70%;
+  }
+  .header .name{
+    opacity: 100%;
+    font-size: 1rem;
+  }
+  .quote-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .quote {
+    position: absolute;
+    right: 15%;
+    top: 0px;
+    z-index: -1;
+  }
+  @media(min-width: 576px){
+    .testimonial-container{
+      display: flex;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+     .container-5{
+      flex-basis: 20%;
+     }
+     .main-sub-container{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 80%;
+     }
+     .main-sub-container .items{
+      margin-right: 15px;
+     }
+     .top{
+      display: flex;
+      flex-basis: 50%;
+     }
+     .bottom{
+      display: flex;
+      flex-basis: 50%;
+     }
+     .container-1{
+      flex-basis: 65%;
+     }
+     .container-2{
+      flex-basis: 35%;
+     }
+     .container-3{
+      flex-basis: 35%;
+     }
+     .container-4{
+      flex-basis: 65%;
+     }
+  }
